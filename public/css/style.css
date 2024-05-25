@@ -1,0 +1,105 @@
+*
+{
+    margin:0;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.navbar{
+    height: 60px !important;
+    background-color: rgb(6, 6, 129) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+}
+.ul{
+
+    position: relative;
+    left: 60%;
+}
+.ul a{
+    font-size: 1.2em !important;
+    color: white !important;
+    font-weight: bold;
+}
+.ul a:hover{
+    color: orangered !important;
+}
+.sous-ul{
+    background-color:rgb(6, 6, 129) ;
+}
+.carousel
+{
+    position: relative;
+    top:60px ;
+}
+.carousel img{
+    height: 700px;
+    filter:opacity(80%)
+}
+.solution{
+    position:relative;
+    top: 60px;
+}
+.text-grand{
+    color: orangered;
+    font-size: 1.5em;
+
+}
+
+.titre-principal{
+    color: orangered;
+}
+.nosulutions{
+    background-color: rgb(243, 241, 241);
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 30px;
+    height: 230px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.nosulutions h5{
+    color: orangered;
+}
+.titre-secondaire{
+    color: rgb(6, 6, 129);
+    font-weight: bold;
+    text-align: center;
+}
+.solution a{
+    text-decoration: none;
+}
+.nosulutions p{
+    color: rgb(129, 128, 128);
+}
+.bouton{
+    background-color:orangered ;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+    color:rgb(129, 128, 128) ;
+}
+
+.imgPrede{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.aproposl h1{
+    font-weight: bold;
+    position: relative;
+    bottom: 150px;
+    left: 55%;
+    font-size: 4em;
+}

@@ -1,0 +1,215 @@
+.linges
+{
+    position: relative;
+    left: 50%;
+}
+.liogne{
+    color: white;
+}
+.fond{
+    background-color: white;
+}
+.grand-titre{
+    font-weight: 600 !important;
+    font-size: 40px;
+    line-height: 56px;
+    color: #4879ea;
+}
+.petit-titre-bleu{
+    font-weight: 600 !important;
+    font-size: 30px;
+    line-height: 56px;
+    color: #4879ea;
+}
+.petit-titre-blanc{
+    font-weight: 600 !important;
+    font-size: 30px;
+    line-height: 56px;
+    color: white;
+}
+.explication{
+    background-color: rgb(70, 68, 68);
+    height: 1200px ;
+    clip-path: polygon(0 0, 100% 10%,100% 90% ,  0 100%);
+    position: relative;
+    top: 150px;
+
+}
+.explication .img
+{
+    border-radius: 100%;
+    border: 10px solid rgb(61, 60, 60);
+    height: 170px;
+    position: relative;
+    left: 20%;
+}
+.i1{
+    color: slateblue;
+    font-size: 10em;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+    bottom: 20%;
+}
+.i01{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: 40%;
+}
+.explication p{
+    color: white;
+    text-align: center;
+}
+.i2{
+    color: lime;
+    font-size: 10em;
+    font-weight: bold;
+    position: relative;
+    left: 35%;
+    bottom: 20%;
+}
+.i02{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    bottom: 40%;
+    right: 50%;
+}
+.COmment
+{
+    text-align: center;
+    background-color: rgb(236, 233, 233);
+    position: relative;
+    top: 110px;
+    height: 350px;
+    padding: 30px;
+
+}
+.btnm{
+    position: relative;
+    left: 42%;
+    top: 150px !important;
+
+}
+.btnn{
+    position: relative;
+    left: 42%;
+    top: 40px;
+
+}
+.COmment h2{
+    color: #2e86c1;;
+}
+.carou{
+    text-align: center;
+
+}
+@media(max-width:576px)
+{
+    .btnnn{
+        position: relative;
+        top: 250px !important;
+        right: 150% !important;
+    }
+    .btnn{
+        position: relative;
+        left: 30%;
+        top: 40px;
+
+    }
+    .explication{
+        background-color: rgb(70, 68, 68);
+        height: 1200px ;
+        clip-path: inherit;
+        position: relative;
+        top: 150px;
+
+    }
+    .bn{
+        position: relative;
+        top: 160px !important;
+    }
+
+    .explication .img
+    {
+        border-radius: 100%;
+        border: 10px solid rgb(61, 60, 60);
+        height: 170px;
+        position: relative;
+        left: 27%;
+        bottom: 220px;
+    }
+    .i1{
+        color: slateblue;
+        font-size: 5em;
+        font-weight: bold;
+        position: relative;
+        left: inherit;
+        bottom: 200px;
+    }
+    .i01{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        position: relative;
+        bottom: 220px;
+        left: 35%;
+    }
+    .explication p{
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 210px;
+    }
+    .i2{
+        color: lime;
+        font-size:  5em;
+        font-weight: bold;
+        position: relative;
+        left: 35%;
+        bottom: 20%;
+    }
+    .ia{
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        position: relative;
+        bottom: 500%;
+        right: 25%;
+    }
+    .iaa{
+        position: relative;
+        bottom: 490%;
+        left:70% ;
+    }
+    .img2{
+        position: relative;
+        bottom: 330px !important;
+
+    }
+    .p52{
+        position: relative;
+        top: 30%;
+    }
+    .p53{
+
+        position: relative;
+        top: 100px;
+    }
+    .iii2{
+        position: relative;
+        bottom: 530px;
+        left: 70%;
+    }
+    .IOOOOOOO{
+        position: relative;
+        bottom: 550px;
+        right: 25%;
+    }
+    .explication{
+        height: 1900px
+    }
+}
