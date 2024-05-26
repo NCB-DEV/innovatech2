@@ -9,15 +9,15 @@
         <img src="{{ asset('img/business-7116735.jpg') }}" class="d-block w-100" alt="...">
         <div class="carousel-caption  d-md-block">
 
-            <h1 style="position: relative; bottom:100px; color:#fff; font-size:10em">InnovaTech</h1>
-          <h3 style="position: relative; bottom:90px; color:#fff; font-size:2em;text-align:center">Développement, marketing et publicité</h3>
+            <h1 style="position: relative; bottom:100px; color:#fff; font-size:10em;font-weight:bold">InnovaTech</h1>
+          <h3 style="position: relative; bottom:90px; color:orangered; font-size:2em;font-weight:bold;center">Développement, marketing et publicité</h3>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img src="{{ asset('img/7.jpg') }}" class="d-block w-100" alt="...">
         <div class="carousel-caption  d-md-block">
-            <h1 style="position: relative; bottom:40px; color:#fff; font-size:10em">InnovaTech</h1>
-          <h3 style="position: relative; bottom:20px; color:#fff; font-size:2em;text-align:center">votre partenaire digitale</h3>
+            <h1 style="position: relative; bottom:40px; color:#fff; font-size:10em;font-weight:bold">In<span style="color: orangered">nova</span><span style="color: rgb(6, 6, 129)">Tech</span></h1>
+          <h3 style="position: relative; bottom:20px; color:rgb(6, 6, 129); font-size:2em;text-align:center">votre partenaire digitale</h3>
         </div>
       </div>
       <div class="carousel-item">

@@ -1,4 +1,6 @@
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     <div class="container menu">
           <a class="navbar-brand" href="{{ url('/') }}">
             <img class="logo" src="{{ asset('img/innovatech.png') }}" alt="">
@@ -19,13 +21,12 @@
               Solutions
             </a>
             <ul class="dropdown-menu sous-ul" aria-labelledby="navbarDropdownMenuLink">
-              <li class="li"><a class="dropdown-item  li" href="{{ route('Site-web') }}">Site web</a></li>
-              <li class="li"><a class="dropdown-item li" href="{{ route('Application-web') }}">Application web</a></li>
-              <li class="li"><a class="dropdown-item li" href="{{ route('Application-mobile') }}">Application mobile</a></li>
+              <li class="li"><a class="dropdown-item  li" href="{{ route('Site-web') }}">Application web & mobile</a></li>
+              <li class="li"><a class="dropdown-item li" href="{{ route('Hebergement') }}">Hébergement web</a></li>
               <li class="li"><a class="dropdown-item li" href="{{ route('Robot-rpa') }}">Robot RPA</a></li>
               <li class="li"><a class="dropdown-item li" href="{{ route('Marketing-Digital') }}">Marketing Digital</a></li>
-              <li class="li"><a class="dropdown-item li" href="{{ route('Application-de-gestion') }}">Application de gestion</a></li>
-              <li><a class="dropdown-item" href="{{ route('Cabinet-conseils') }}">Cabinet des conseils informatiques</a></li>
+              <li class="li"><a class="dropdown-item li" href="{{ route('Application-de-gestion') }}">Logiciels de gestion</a></li>
+
             </ul>
           </li>
 

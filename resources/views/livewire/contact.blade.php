@@ -64,65 +64,72 @@
                                          </div>
                                      @endif
                         </p>
-                        <form wire:submit.prevent="submit">
-                            @csrf
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-6">
-
-                                        <div  wire:message.error="nom">
-                                            <span class="text-danger" class="error-message">{{ $errors->first('nom') }}</span>
-                                        </div>
-                                    <label for="nom">Nom<span style="color: red">*</span></label>
-                                    @error('form.nom')
-                                       <div class="invalid-feedback">{{ $messages }}</div>
-                                    @enderror
-                                    <input wire:model="nom" class="form-control is-invalid" type="text" name="" id="nom" placeholder=" Nom">
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-6">
-                                    <div  wire:message.error="postnom">
-                                        <span class="text-danger" class="error-message">{{ $errors->first('postnom') }}</span>
-                                    </div>
-                                    <label for="postnom">Postnom<span style="color: red">*</span></label>
-                                    @error('postnom')
-                                       <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                    <input wire:model="postnom" class="form-control is-invalid" type="text" name="" id="postnom" placeholder=" Postnom">
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-6">
-                                    <div  wire:message.error="phone">
-                                        <span class="text-danger" class="error-message">{{ $errors->first('phone') }}</span>
-                                    </div>
-                                    <label for="phone">Téléphone<span style="color: red">*</span></label>
-                                    @error('phone')
-                                       <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                    <input wire:model="phone" class="form-control is-invalid" type="text" name="" id="phone" placeholder=" Téléphone">
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-6">
-                                    <div  wire:message.error="email">
-                                        <span class="text-danger" class="error-message">{{ $errors->first('email') }}</span>
-                                    </div>
-                                    <label for="nom">E-mail<span style="color: red">*</span></label>
-                                    @error('email')
-                                       <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                    <input wire:model="email" class="form-control is-invalid" type="email" name="" id="mail" placeholder=" E-mail">
-                                </div>
-                                <div class="col-12">
-                                    <div  wire:message.error="message">
-                                        <span class="text-danger" class="error-message">{{ $errors->first('message') }}</span>
-                                    </div>
-                                    <label for="message">Méssage<span style="color: red">*</span></label>
-                                    @error('message')
-                                       <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                    <textarea wire:model="message" name="message" class="form-control is-invalid" id="message" cols="30" rows="5" placeholder=" Message"></textarea>
-                                </div>
-                                <div class="col-6">
-                                    <button  style="margin-top: 10px" type="submit" class="btn btnb">Envoyer</button>
-                                </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <img class="img" src="{{ asset('img/job-interview-3410427_1280.jpg') }}" alt="">
                             </div>
-                        </form>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <form wire:submit.prevent="submit">
+                                    @csrf
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+
+                                                <div  wire:message.error="nom">
+                                                    <span class="text-danger" class="error-message">{{ $errors->first('nom') }}</span>
+                                                </div>
+                                            <label for="nom">Nom<span style="color: red">*</span></label>
+                                            @error('form.nom')
+                                               <div class="invalid-feedback">{{ $messages }}</div>
+                                            @enderror
+                                            <input  wire:model="nom" class="form-control is-invalid" type="text" name="" id="nom" placeholder=" Nom">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div  wire:message.error="postnom">
+                                                <span class="text-danger" class="error-message">{{ $errors->first('postnom') }}</span>
+                                            </div>
+                                            <label for="postnom">Postnom<span style="color: red">*</span></label>
+                                            @error('postnom')
+                                               <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                            <input wire:model="postnom"  class="form-control is-invalid" type="text" name="" id="postnom" placeholder=" Postnom">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div  wire:message.error="phone">
+                                                <span class="text-danger" class="error-message">{{ $errors->first('phone') }}</span>
+                                            </div>
+                                            <label for="phone">Téléphone<span style="color: red">*</span></label>
+                                            @error('phone')
+                                               <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                            <input wire:model="phone" class="form-control is-invalid" type="text" name="" id="phone" placeholder=" Téléphone">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div  wire:message.error="email">
+                                                <span class="text-danger" class="error-message">{{ $errors->first('email') }}</span>
+                                            </div>
+                                            <label for="nom">E-mail<span style="color: red">*</span></label>
+                                            @error('email')
+                                               <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                            <input wire:model="email" class="form-control is-invalid" type="email" name="" id="mail" placeholder=" E-mail">
+                                        </div>
+                                        <div class="col-12">
+                                            <div  wire:message.error="message">
+                                                <span class="text-danger" class="error-message">{{ $errors->first('message') }}</span>
+                                            </div>
+                                            <label for="message">Méssage<span style="color: red">*</span></label>
+                                            @error('message')
+                                               <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
+                                            <textarea wire:model="message" name="message" class="form-control is-invalid" id="message" cols="30" rows="5" placeholder=" Message"></textarea>
+                                        </div>
+                                        <div class="col-6">
+                                            <button  style="margin-top: 10px" type="submit" class="bouton btn btnb">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

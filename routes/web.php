@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 //menu
 Route::get('Site-web',[WebController::class,"Siteweb"])->name('Site-web');
-Route::get('Application-web',[WebController::class,"Applicationweb"])->name('Application-web');
+Route::get('Hebergement',[WebController::class,"Applicationweb"])->name('Hebergement');
 Route::get('Application-mobile',[WebController::class,"Applicationmobile"])->name('Application-mobile');
 Route::get('Robot-rpa',[WebController::class,"Robotrpa"])->name('Robot-rpa');
 Route::get('Marketing-Digital',[WebController::class,"MarketingDigital"])->name('Marketing-Digital');

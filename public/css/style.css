@@ -102,4 +102,27 @@
     bottom: 150px;
     left: 55%;
     font-size: 4em;
+    width: 45%;
 }
+
+.footers{
+    background-color: rgb(6, 6, 129);
+    position: relative;
+    top: 150px;
+    margin: 0 !important;
+}
+.media{
+    height: 100px;
+    background-color: rgb(6, 6, 129);
+    color: black;
+}
+.iconn{
+    width: 100px !important;
+}
+.action1{
+    width: 150px;
+    z-index: 11;
+    margin: auto;
+}
+
+
