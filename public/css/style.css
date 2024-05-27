@@ -110,6 +110,8 @@
     position: relative;
     top: 150px;
     margin: 0 !important;
+    text-align: center;
+    color: white;
 }
 .media{
     height: 100px;
@@ -123,6 +125,23 @@
     width: 150px;
     z-index: 11;
     margin: auto;
+}
+.temoignage{
+    position: relative;
+    top:120px;
+    height: 550px;
+    background-color:rgb(6, 6, 129) ;
+    color: white;
+}
+.expli{
+    position: relative;
+    top: 150px;
+}
+.logo_f{
+    width: 100px;
+}
+.iconn{
+    width: 25px !important;
 }
 
 

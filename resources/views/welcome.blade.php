@@ -152,14 +152,12 @@ Accueil-InnovaTech
                     <div class="row">
 
                         <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
-                            <p class="text">
-                                En tant que PDG d'Immo-Congo, une agence immobilière de premier plan en République démocratique du Congo, je suis ravi de partager notre expérience positive avec Innovatech, notre partenaire de transformation digitale.
-                            </p>
 
-                            <p class="text">
+
+                            <p >
                                 "la collaboration avec Innovatech a été une expérience extrêmement positive pour Immo-Congo. La transformation digitale a permis à notre entreprise de se moderniser, d'accroître sa visibilité en ligne et de stimuler sa croissance. Nous sommes très satisfaits des résultats obtenus et nous recommandons vivement Innovatech à toutes les entreprises qui souhaitent se lancer dans une transformation digitale réussie.
                             </p>
-                            <p class="text">
+                            <p >
                                 Je tiens à remercier personnellement l'équipe d'Innovatech pour leur expertise, leur professionnalisme et leur engagement dans la réussite de notre projet. Ils ont été des partenaires précieux tout au long de ce processus et nous sommes fiers de la relation que nous avons bâtie avec eux. "<br>
                                 <code style="text-align: center">Jean-Pierre Mukendi</code>
                             </p>
@@ -173,13 +171,13 @@ Accueil-InnovaTech
 
                             <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
 
-                        <p class="text">
+                        <p >
                             "Je félicite de tout cœur l'équipe d'Innovatech pour son engagement indéfectible, son expertise exceptionnelle et sa passion sincère pour l'autonomisation des organisations à but non lucratif comme la nôtre. Leur partenariat a joué un rôle déterminant dans la propulsion de Sauvons le Congo vers l'accomplissement de sa mission et un impact durable sur nos communautés.
                         </p>
-                        <p class="text">
+                        <p >
                             Dès le départ, l'équipe d'Innovatech a fait preuve d'une compréhension profonde de nos défis et de nos aspirations. Ils ont pris le temps de s'immerger dans notre travail, acquérant une compréhension complète de notre mission, de notre public cible et de nos besoins opérationnels. Cette compréhension approfondie leur a permis d'élaborer une stratégie de transformation digitale sur mesure qui correspondait parfaitement à nos objectifs.
                         </p>
-                        <p class="text">
+                        <p >
                             L'expertise d'Innovatech en marketing digital a propulsé notre portée et notre impact. Ils nous ont guidés dans le développement et l'exécution de campagnes ciblées qui ont élargi notre présence en ligne, sensibilisé à notre cause et attiré de nouveaux supporters d'horizons divers. Ces campagnes ont joué un rôle crucial dans l'amplification de notre impact et la promotion d'un changement positif." <br>
                             <code style="text-align: center">Kasereka Kurubi</code>
                         </p>
@@ -193,13 +191,11 @@ Accueil-InnovaTech
 
                         <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
 
-                    <p class="text">
-                       " En tant que directeur de l'Ecole Tubay, un établissement d'enseignement de premier plan dédié à l'éducation de qualité pour les élèves de Kinshasa (Mont-Ngafula), je suis ravi de partager notre expérience remarquable avec Innovatech, notre partenaire de transformation digitale.
+
+                    <p >
+                       " Dès le départ, l'équipe d'Innovatech a fait preuve d'une compréhension profonde de nos besoins et aspirations uniques en tant qu'établissement d'enseignement. Ils ont pris le temps de s'immerger dans notre culture scolaire, notre programme d'études et notre infrastructure technologique, acquérant une compréhension complète de nos objectifs et de nos défis. Cette compréhension approfondie leur a permis d'élaborer une stratégie de transformation digitale sur mesure qui correspondait parfaitement à notre vision de l'éducation future.
                     </p>
-                    <p class="text">
-                        Dès le départ, l'équipe d'Innovatech a fait preuve d'une compréhension profonde de nos besoins et aspirations uniques en tant qu'établissement d'enseignement. Ils ont pris le temps de s'immerger dans notre culture scolaire, notre programme d'études et notre infrastructure technologique, acquérant une compréhension complète de nos objectifs et de nos défis. Cette compréhension approfondie leur a permis d'élaborer une stratégie de transformation digitale sur mesure qui correspondait parfaitement à notre vision de l'éducation future.
-                    </p>
-                    <p class="text">
+                    <p >
                         L'expertise d'Innovatech en matière de technologie éducative nous a permis d'explorer des moyens innovants d'améliorer les expériences d'apprentissage de nos élèves. Nous avons introduit des technologies de réalité virtuelle (VR) et de réalité augmentée (AR) dans nos salles de classe, offrant aux élèves des expériences d'apprentissage immersives et interactives qui donnent vie aux concepts. Ces technologies innovantes ont suscité la curiosité des élèves, approfondi leur compréhension et favorisé l'amour de l'apprentissage. "<br>
                         <code style="text-align: center">Katang nawej</code>
                     </p>
@@ -211,31 +207,32 @@ Accueil-InnovaTech
         <div class="col-sm-12 col-md-2 col-lg-2"></div>
     </div>
 </div>
-<div style="position: relative;top:150px" class="container-fluid fond solution" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+</div>
+<div  class="container-fluid fond solution expli" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
     <div class="row">
         <div class="col-sm-12 col-md-3 col-lg-4" data-aos-duration="1000" data-aos-delay="100">
             <div class="presentat">
-                <img style="height: 300px" class="img" src="{{ asset('img/1.jpg') }}" alt="">
+                <video controls width="100%" src="{{ asset('videos/4094-176873194_small.mp4') }}"></video>
                 <h2   class="kanit-semibold titre-principal" style="text-align: center">InnovaTech en vidéo</h2>
-                <p style="text-align: center">
+                <p class="text" style="text-align: center">
                     InnovaTech est une agence spécialisée en développement applications, communication, stratégie marketing que ce soit pour la création d'un site web ou d'acquisition de trafic.
                 </p>
             </div>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-4" data-aos-duration="1000" data-aos-delay="100">
             <div class="presentat">
-                <img style="height: 300px" class="img" src="{{ asset('img/3.jpg') }}" alt="">
+                <video controls width="100%" src="{{ asset('videos/12716-241674181_small.mp4') }}"></video>
                 <h2   class="kanit-semibold titre-principal" style="text-align: center">Nos différentes formations</h2>
-                <p style="text-align: center">
+                <p class="text" style="text-align: center">
                     Nos formations sont personnalisées et individualisées pour que vous puissiez gérer votre activité sur le web en toute indépendance: Référencement Naturel, Google Adwords, Social média.
                 </p>
             </div>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-4 "data-aos-duration="1000" data-aos-delay="100" style="margin-bottom: 20px">
             <div class="presentat">
-                <img style="height: 300px" class="img" src="{{ asset('img/4.png') }}" alt="">
+                <video width="100%" controls src="{{ asset('videos/27706-365890968_small.mp4') }}"></video>
                 <h2   class="kanit-semibold titre-principal" style="text-align: center">Notre méthodologie de développement</h2>
-                <p style="text-align: center">
+                <p style="text-align: center" class="text">
                     Notre maîtrise technologique nous permet de créer des sites web, des applis mobiles ou métiers sur-mesure et d'intégrer les principales solutions technologiques du marché.
                 </p>
             </div>
@@ -243,7 +240,7 @@ Accueil-InnovaTech
     </div>
 </div>
 
-<div id="cookie-alert" class="alert alert-info fixed-bottom">
+<div id="cookie-alert" class="alert alert-info fixed-bottom" style="z-index: 1111111111111111111111111111111">
     <p>Ce site utilise des cookies pour améliorer votre expérience. En poursuivant votre navigation, vous acceptez leur utilisation.</p>
     <button type="button" class="btn btn-primary btn-sm accept-cookies">Accepter les cookies</button>
   </div>

@@ -39,43 +39,7 @@
     @include('menu.menu')
     @yield('accueil')
     @yield('siteweb')
-    <div class="container-fluid border footers ">
-        <div class="row">
-            <div class="col-sm-12 col-lg-4 col-md 6">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img class="logo" src="{{ asset('img/innovatech.png') }}" alt="">
-                </a>
-
-                    <a href="https://www.facebook.com/profile.php?id=61557642663268"><img class="iconn" src="{{ asset('images/man-5218084.jpg.png') }}" style="margin:10px;width:20px" alt=""></a> <a href="https://www.linkedin.com/company/innovatech-drc"><img class="iconn" style="margin:10px;width:20px" src="{{ asset('images/LinkedIn-256.png') }}" alt=""></a><a  href="https://wa.me/message/5FRTNAD43W7CO1"><img style="margin:10px;width:20px" class="iconn" src="{{ asset('images/WhatsApp-256.png') }}" alt=""></a>
-
-            </div>
-            <div class="col-sm-12 col-lg-4 col-md 6">
-                <h1>HORAIRE DE TRAVAIL</h1>
-                <p>
-                   9H-17H--Lundi-vendredi
-                </p>
-            </div>
-            <div class="col-sm-12 col-lg-4 col-md 6">
-                <h1>NewsLetters</h1>
-                <p>
-                    Abonnez-vous à notre NewsLetters pour ne pas manquer nos nouvelles
-                </p>
-                <form action="" method="post">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn bouton" type="button" id="button-addon2">Inscrivez-vous</button>
-                      </div>
-                </form>
-            </div>
-
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-12">
-                copyright 2022-2024 InnovaTech
-            </div>
-        </div>
-    </div>
+    @include('menu.footer')
 
 <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('aos/aos.js') }}"></script>

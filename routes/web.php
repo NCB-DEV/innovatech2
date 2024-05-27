@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\envoiMail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 
@@ -27,3 +28,5 @@ Route::get('Application-de-gestion',[WebController::class,"Applicationdegestion"
 Route::get('Cabinet-conseils',[WebController::class,"Cabinetconseils"])->name('Cabinet-conseils');
 Route::get('A-propos',[WebController::class,"Apropos"])->name('A-propos');
 Route::get('Contacts',[WebController::class,"Contact"])->name('Contacts');
+//newsletter
+Route::post('abonnement',[envoiMail::class,"abonnement"])->name('abonnement');
