@@ -6,8 +6,8 @@ InnovaTech-logiciels de gestion
     <div class=" solution aproposl">
 
 
-                <img class="imgPrede" src="{{ asset('img/man-5218084.jpg') }}" alt="">
-                <h1 class="titre-principal ">Logiciels de gestion</h1>
+                <img class="imgPrede" src="{{ asset('img/web_mobile (5).png') }}" alt="">
+
 
 
     </div>
@@ -18,13 +18,17 @@ InnovaTech-logiciels de gestion
                 <p class="text">
                     Nos logiciels de gestion peuvent vous aider à gérer efficacement votre entreprise, à améliorer votre productivité et à prendre des décisions stratégiques éclairées.
                 </p>
+                <p class="text">
+                    InnovaTech dispose d'une équipe de développeurs de logiciels hautement qualifiés et expermentés, méticuleusement constituée pour fournir des solutions logicielles de gestion exptionnelles. Notre équipe possède une connaissance approfondie de diverse secteurs d'ctivité et processus métier, ce qui nous permet de concevoir et de développer des logiciels qui s'integrent de manière transparente à vos besoins uniques
+                </p>
+
             </div>
             <div class="col-sm-12 md-6 col-lg-6">
-                <img src="{{ asset('img/woman-1459220_1920.png') }}" class="img" alt="">
+                <img src="{{ asset('img/woman-1459220_1920.png') }}" style="height: 400px" class="img" alt="">
             </div>
         </div>
     </div>
-    <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <div class="container solution" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <img class="img" src="{{ asset('img/computer-1294359.svg') }}" alt="">
@@ -46,18 +50,19 @@ InnovaTech-logiciels de gestion
             </div>
         </div>
     </div>
-    <div class="container" >
+    <div class="container solution" >
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <h2 class="kanit-semibold titre-principal" style="text-align: center">Avantages des logiciels de gestion</h2>
-                <p class="text">
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class=" solution kanit-semibold titre-principal" style="text-align: center">Avantages des logiciels de gestion</h2>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="text solution" style="text-align: center">
                     L'utilisation de logiciels de gestion dans votre entreprise peut vous offrir de nombreux avantages, notamment :
                 </p>
+            <div class=" solution col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+
                 <img src="{{ asset('img/people-1979261.jpg') }}" class="img" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="col-sm-12 solution col-md-6 col-lg-6"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 text">
                         <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Amélioration de l'efficacité:</strong> Les logiciels de gestion peuvent automatiser de nombreuses tâches manuelles, ce qui vous permet de gagner du temps et d'améliorer votre efficacité. <br>
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Meilleure prise de décision :</strong> Les logiciels de gestion vous donnent accès à des données précieuses sur votre entreprise, ce qui vous permet de prendre des décisions plus éclairées.
                 <br>
@@ -72,5 +77,5 @@ InnovaTech-logiciels de gestion
             </div>
         </div>
     </div>
-    
+
 @endsection

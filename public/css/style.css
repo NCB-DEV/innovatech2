@@ -88,7 +88,7 @@
     border-radius: 15px;
 }
 .text{
-    color:rgb(129, 128, 128) ;
+    color:rgb(3, 3, 46) ;
 }
 
 .imgPrede{
@@ -140,8 +140,41 @@
 .logo_f{
     width: 100px;
 }
+
 .iconn{
     width: 25px !important;
 }
-
-
+.contact{
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold !important;
+}
+.items{
+    text-align: center;
+}
+.contactjj{
+    box-shadow: 0px 1px  5px black;
+    border-radius: 15px;
+    height: 200px;
+}
+.alert-info{
+    z-index: 1111111111111 !important;
+}
+.apropotitre
+{
+    color: rgb(29, 146, 175);
+}
+.imgPrede{
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.solu{
+    position: relative;
+    top: 80px;
+}
+.hhhhhn{
+    position: relative;
+    top: 110px !important;
+}

@@ -6,8 +6,8 @@ Contact
     <div class="container-fluid solution contact">
         <div class="row">
             <div class="col-12">
-                <h2>Contact</h2>
-                <span>Prendre contact avec InnovaTech</span>
+                <h2 class="text-grand contact kanit-extralight">Contact</h2>
+                <span class="titre-secondaire">Prendre contact avec InnovaTech</span>
             </div>
         </div>
     </div>

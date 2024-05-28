@@ -6,7 +6,7 @@ Accueil-InnovaTech
 <div class=" barner-Accueil1 ">
     <div class="row">
         @include('layout.courousel')
-           <a href="{{ route('Contacts') }}" class="bouton action1 btn">Nous contactez</a>
+           <a href="{{ route('Contacts') }}" class="bouton action1 btn">Nous contacter</a>
 
     </div>
 </div>
@@ -121,20 +121,20 @@ Accueil-InnovaTech
 </div>
 <div class="container solution">
     <div class="row ">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-6 col-lg-6 poiiii" >
             <img class="img" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" src="{{ asset('img/pourquoi.jpg') }}" alt="">
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <h3  class="kanit-semibold titre-principal" style="text-align: center">Pourquoi nous choisir?</h3>
-            <p class="text">
+            <p class="text p1" >
                 Innovatech est un cabinet de conseil en transformation digitale qui possède une vaste expérience et une expertise dans l'accompagnement des entreprises de toutes tailles dans leur parcours de transformation digitale. Nous sommes passionnés par l'aide aux entreprises à tirer parti du pouvoir de la technologie pour améliorer leurs opérations, accroître leur efficacité et stimuler leur croissance.
             </p>
-            <p class="text">
+            <p class="text p1">
                 Voici les raisons de choisir innovatech: <br>
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/>Expertise et expérience <br>
                 <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/>Approche centrée sur le client <br>
                 <img width="20" height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/>Engagement envers les résultats <br>
-                <a class=" btn bouton" href="{{ route('Contacts') }}">Contactez-nous</a>
+                <a class="boutons btn bouton" href="{{ route('Contacts') }}">contactez-nous</a>
             </p>
         </div>
     </div>
@@ -148,7 +148,7 @@ Accueil-InnovaTech
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <h4 class="text-grand kanit-bold-italic" style="text-align: center">Jean-Pierre Mukendi</h4>
-                    <h5 class="titre-secondaire" style="text-align: center">PDG d'Immo-Congo</h5>
+
                     <div class="row">
 
                         <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
@@ -167,7 +167,7 @@ Accueil-InnovaTech
                   <div class="carousel-item">
                         <div class="row">
                             <h4 class="text-grand kanit-bold-italic" style="text-align: center">Kasereka Kurubi</h4>
-                        <h5 class="titre-secondaire">PDG de Sauvons le Congo</h5>
+
 
                             <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
 
@@ -187,7 +187,7 @@ Accueil-InnovaTech
                   <div class="carousel-item">
                     <div class="row">
                         <h4 class="titre-principal kanit-bold-italic" style="text-align: center">Katang nawej</h4>
-                    <h5 class="titre-secondaire">PDG de Sauvons le Congo</h5>
+                    
 
                         <div class="col-sm-12 col-md-12 col-lg-12" style="text-align:justify">
 
@@ -240,7 +240,7 @@ Accueil-InnovaTech
     </div>
 </div>
 
-<div id="cookie-alert" class="alert alert-info fixed-bottom" style="z-index: 1111111111111111111111111111111">
+<div id="cookie-alert" class="alert alert-info fixed-bottom" >
     <p>Ce site utilise des cookies pour améliorer votre expérience. En poursuivant votre navigation, vous acceptez leur utilisation.</p>
     <button type="button" class="btn btn-primary btn-sm accept-cookies">Accepter les cookies</button>
   </div>

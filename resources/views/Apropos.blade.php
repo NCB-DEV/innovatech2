@@ -6,17 +6,20 @@ A propos
     <div class=" solution aproposl">
 
 
-                <img class="imgPrede" src="{{ asset('img/man-5218084.jpg') }}" alt="">
-                <h1 class="titre-principal "> Qui sommes-nous?</h1>
+                <img class="imgPrede" src="{{ asset('img/rp (4).png') }}" alt="">
+
 
 
     </div>
-    <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <div class="container solu" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
         <div class="row">
             <div class="col-sm-12 md-6 col-lg-6">
                 <h2  class="kanit-semibold titre-principal" style="text-align: center">Nous sommes votre partenaire de confiance</h2>
                 <p class="text">
-                    Innovatech est un partenaire de transformation digitale qui accompagne les entreprises, les organisations et les personnalités publiques dans leur quête d'atteindre leurs objectifs commerciaux, sociaux ou autres en utilisant la puissance du digital.
+                    <strong>Innovatech</strong> est un partenaire de la transformation digitale qui accompagne les entreprises, les organisations et les personnalités publiques dans leur quête d'atteindre leurs objectifs commerciaux, sociaux ou autres en utilisant la puissance du digital.
+                </p>
+                <p class="text">
+                    <strong>InnovaTech</strong> est une entreprise spécialisée dans le développement des solutions numériques sur mésure. Notre équipe d'experts passionnés met en oeuvre des technologies de pointe pour répondre aux bésoins spécifiques de nos partenaires.
                 </p>
             </div>
             <div class="col-sm-12 md-6 col-lg-6">
@@ -24,12 +27,12 @@ A propos
             </div>
         </div>
     </div>
-    <div class="container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <div style="margin-top:30px " class="container solu" >
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <img class="img" src="{{ asset('img/6.jpg') }}" alt="">
+            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <img class="img img1" src="{{ asset('img/6.jpg') }}" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 text">
+            <div class="col-sm-12 col-md-6 col-lg-6 text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <h3 class="kanit-semibold titre-principal" style="text-align: center">Grâce à son expertise et à sa gamme complète de services, Innovatech aide ses clients à :</h3>
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Améliorer leur présence en ligne</strong> en créant des sites Web et des applications mobiles attrayants et performants, en optimisant leur référencement et en développant des stratégies de marketing digital efficaces. <br>
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Renforcer leurs relations avec leurs clients</strong> en mettant en place des solutions de CRM et de marketing automation, en créant des expériences client personnalisées et en offrant un excellent service client digital.
@@ -37,19 +40,13 @@ A propos
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Augmenter leurs ventes et leur rentabilité</strong> en développant des stratégies de e-commerce efficaces, en optimisant leurs processus de vente et en tirant parti des données pour prendre des décisions plus éclairées. <br>
                 Améliorer leur efficacité opérationnelle en automatisant des tâches, en mettant en place des solutions de gestion de documents et en utilisant des outils de collaboration en ligne. <br>
                 <img width="20 " height="20" src="https://img.icons8.com/emoji/48/check-mark-emoji.png" alt="check-mark-emoji"/> <strong>Avoir un impact social positif</strong> en développant des solutions digitales pour relever des défis sociaux, en sensibilisant à des questions importantes et en connectant les gens avec des causes qui leur tiennent à cœur. <br>
-                <a href="{{ route('Contacts') }}" class=" btn bouton">Contactez-nous</a>
+                <a href="{{ route('Contacts') }}" class=" btn bouton boutons">Contactez-nous</a>
             </div>
         </div>
     </div>
-    <div class="container" >
+    <div class="container solu" style="margin-top: 50px">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <h2 class="kanit-semibold titre-principal" style="text-align: center">C'est par ici que commence votre chemin</h2>
-                <p class="text">
-                    Supprimez les conjectures et Obtenez des réponses précises et fiables à toutes vos demandes de services.
-                </p>
-                <img src="{{ asset('img/people-1979261.jpg') }}" class="img" alt="">
-            </div>
+
             <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <div class="row">
                     <div class="col-12">
@@ -76,9 +73,16 @@ A propos
 
                 </div>
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <h2 class="kanit-semibold titre-principal" style="text-align: center">C'est par ici que commence votre chemin</h2>
+                <p class="text">
+                    Supprimez les conjectures et Obtenez des réponses précises et fiables à toutes vos demandes de services.
+                </p>
+                <img src="{{ asset('img/people-1979261.jpg') }}" class="img" alt="">
+            </div>
         </div>
     </div>
-    <div class="container">
+    <div class="solu container" style="margin-top: 30px">
         <h3 class="kanit-semibold titre-principal" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="text-align: center">Nos valeurs</h3>
         <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" style="text-align: center" class="text">
             Notre réussite sur différents projets émane de certains principes prônés

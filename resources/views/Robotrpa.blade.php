@@ -6,8 +6,8 @@ InnovaTech-Robot RPA
     <div class=" solution aproposl">
 
 
-                <img class="imgPrede" src="{{ asset('img/man-5218084.jpg') }}" alt="">
-                <h1 class="titre-principal "> Robot RPA</h1>
+                <img class="imgPrede" src="{{ asset('img/web_mobile (3).png') }}" alt="">
+
 
 
     </div>
@@ -20,7 +20,7 @@ InnovaTech-Robot RPA
                 </p>
             </div>
             <div class="col-sm-12 md-6 col-lg-6">
-                <img src="{{ asset('img/robot-30659.svg') }}" class="img" alt="">
+                <img style="margin:auto;height: 50%;width:50%" src="{{ asset('img/robot-30659.svg') }}" class="img" alt="">
             </div>
         </div>
     </div>
@@ -43,5 +43,5 @@ InnovaTech-Robot RPA
             </div>
         </div>
     </div>
-    
+
 @endsection
