@@ -3,15 +3,18 @@
 Contact
 @endsection
 @section('siteweb')
-    <div class="container-fluid solution contact">
+    <div class="container-fluid contacts">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-grand contact kanit-extralight">Contact</h2>
-                <span class="titre-secondaire">Prendre contact avec InnovaTech</span>
+                <h2 class="text-couleur-orange position-text-centre">Contact</h2> <br>
+                
             </div>
         </div>
     </div>
-   <div class="container solution">
+   <div class="container ">
     @livewire('Contact')
    </div>
+   <div class="footk">
+    @include('menu.footer')
+</div>
 @endsection

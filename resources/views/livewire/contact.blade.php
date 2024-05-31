@@ -1,4 +1,4 @@
-<div>
+<div class="positionss">
     <div class="container ">
         <div class="row">
             <div class="col-12">
@@ -18,32 +18,32 @@
         </div>
     </div>
 
-    <div id="vente" @if($afficherVente) style="display:block" @else style="display:none" @endif class="contactjj solution">
-        <h3 class="titre-secondaire"><img width="25" height="25" src="https://img.icons8.com/offices/30/whatsapp.png" alt="whatsapp"/>whatsapp</h3>
+    <div id="vente" @if($afficherVente) style="display:block" @else style="display:none" @endif class="contackkk">
+        <h3 class="position-text-centre text-couleur-blue"><img width="25" height="25" src="https://img.icons8.com/offices/30/whatsapp.png" alt="whatsapp"/>whatsapp</h3>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="contacts"  style="text-align: center">
-                        <p class="text" style="text-align: center">
+                    <div class="position-text-centre">
+                        <p class="position-text-centre text-couleur-blue">
                             Veillez nous ecrire sur whatsapp
                         </p>
-                        <a style="font-weight: bold;font-size:2em"  href="https://wa.me/message/5FRTNAD43W7CO1"><img width="35" height="35" src="https://img.icons8.com/offices/30/whatsapp.png" alt="whatsapp"/> +243 854 688 281</a>
+                        <a style="font-weight: bold;font-size:2em"  href="https://wa.me/message/5FRTNAD43W7CO1" class="acon"><img width="35" height="35" src="https://img.icons8.com/offices/30/whatsapp.png" alt="whatsapp"/> +243 854 688 281</a>
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="location" @if($afficherLocation) style="display:block" @else style="display:none" @endif class="contactjj solution">
+    <div id="location" @if($afficherLocation) style="display:block" @else style="display:none" @endif class="contackkk">
         <h3 class="titre-secondaire"><img width="25" height="25" src="https://img.icons8.com/fluency/48/phone--v1.png" alt="phone--v1"/>Téléphone</h3>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="contacts" style="text-align: center">
-                        <p class="text">
+                        <p class="position-text-centre text-couleur-blue">
                             Veillez nous appeler
                         </p>
-                        <img width="35" height="35" src="https://img.icons8.com/fluency/48/phone--v1.png" alt="phone--v1"/><a style="font-weight: bold;font-size:2em" href="tel:+243 821 248 030">+243 821 248 030</a>
+                        <img width="35" height="35" src="https://img.icons8.com/fluency/48/phone--v1.png" alt="phone--v1"/><a class="acon" style="font-weight: bold;font-size:2em" href="tel:+243 821 248 030">+243 821 248 030</a>
                     </div>
                 </div>
             </div>
@@ -51,12 +51,12 @@
     </div>
 
     <div id="afficherform" @if($afficherform) style="display:block" @else style="display:none" @endif class="contactjjj solution">
-        <h3 class="titre-secondaire"><img width="25" height="25" src="https://img.icons8.com/office/16/form.png" alt="form"/>Formulaire</h3>
+        <h3 class="position-text-centre text-couleur-blue"><img width="25" height="25" src="https://img.icons8.com/office/16/form.png" alt="form"/>Formulaire</h3>
         <div class="container">
             <div class="row fior " >
                 <div class="col-12 formss">
-                    <div class="contacts">
-                        <p style="text-align: center" class="text">
+                    <div class=" text-couleur-blue">
+                        <p style="text-align: center" class="position-text-centre text-couleur-blue">
                             Veillez remplir ce formulaire pour nous écrire
                             @if ($successMessage)
                                          <div class="alert alert-success" role="alert">

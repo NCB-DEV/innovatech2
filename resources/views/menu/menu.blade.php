@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-text navbar-expand-lg  navbar-light ">
 
     <div class="container menu">
           <a class="navbar-brand" href="{{ url('/') }}">
@@ -8,7 +8,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <div class="collapse navbar-collapse  ul" id="navbarNavDropdown">
         <ul class="navbar-nav ul">
           <li class="nav-item li">
             <a class="nav-link active li" aria-current="page" href="{{ url('/') }}">Accueil</a>

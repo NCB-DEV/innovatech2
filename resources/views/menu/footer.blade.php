@@ -1,6 +1,6 @@
-<div class="container-fluid border footers ">
+<div class="container-fluid  footers ">
     <div class="row">
-        <div class="col-sm-12 col-lg-4 col-md 6">
+        <div class="col-sm-12 col-lg-4 col-md-4">
 
               <a class="navbar-brand" href="{{ url('/') }}">
                 <img class="logo_f" src="{{ asset('img/innovatech.png') }}" alt="">
@@ -20,15 +20,15 @@
                 <a  href="https://wa.me/message/5FRTNAD43W7CO1"><img style="margin:10px;width:20px" class="iconn" src="{{ asset('img/WhatsApp-256.png') }}" alt=""></a>
 
         </div>
-        <div class="col-sm-12 col-lg-4 col-md 6">
-            <h4 style="text-align: center;margin-top:40px" class="">HORAIRE DE TRAVAIL</h4>
+        <div class="col-sm-12 col-lg-4 col-md 4">
+            <h4 style="text-align: center;margin-top:60px" class="">HORAIRE DE TRAVAIL</h4>
             <p style="text-align: center" class="kanit-black-italic">
                 <img width="20" height="20" src="https://img.icons8.com/color/48/time.png" alt="time"/>9H-17H:Lundi-vendredi <br>
                 <img width="20" height="20" src="https://img.icons8.com/color/48/time.png" alt="time"/>9H-13H:samedi
             </p>
         </div>
-        <div class="col-sm-12 col-lg-4 col-md 6" style="text-align: center">
-            <h1>NewsLetters</h1>
+        <div class="col-sm-12 col-lg-4 col-md-4" style="text-align: center">
+            <h1 style="text-align: center;margin-top:60px">NewsLetters</h1 >
             <p>
                 Abonnez-vous à notre NewsLetters pour ne pas manquer nos nouvelles
             </p>

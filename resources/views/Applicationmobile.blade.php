@@ -112,5 +112,7 @@ Solution-application mobile
     </div>
 </div>
 
-
+<div class="bas footlog">
+    @include('menu.footer')
+</div>
 @endsection
